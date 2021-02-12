@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Demo</title>
+</head>
+<!-- The total length should equal 12 -->
+
+<body>
+    <div class="container">
+        <h1 class="display-1 text-center text-primary">The Grid System</h1>
+        <div class="row">
+            <div class="col-2 bg-success">I AM 2 UNITS</div>
+            <div class="col-8 bg-danger">I AM 8 UNITS</div>
+            <div class="col-2 bg-success">I AM 2 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-info">I AM 3 UNITS</div>
+            <div class="col-6 bg-warning">I AM 6 UNITS</div>
+            <div class="col-3 bg-info">I AM 3 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col bg-primary">I AM AUTOSIZED</div>
+            <div class="col bg-secondary">I AM AUTOSIZED</div>
+            <div class="col-8 bg-primary">I AM AUTOSIZED</div>
+            <!-- <div class="col bg-secondary">I AM AUTOSIZED</div> -->
+        </div>
+        <!-- below: nested containers example. Effect is a margin on the sides -->
+        <div class="container">
+            <div class="row">
+                <div class="col bg-primary">I AM AUTOSIZED</div>
+                <div class="col bg-secondary">I AM AUTOSIZED</div>
+                <div class="col-8 bg-primary">I AM AUTOSIZED</div>
+            </div>
+        </div>
+        <!-- below: col-md-6  means at md width (which is predetermined in bootstrap) and larger the tagged contenet
+             splits into columns of 6 units each or 50%-->
+        <!-- https://getbootstrap.com/docs/4.5/layout/grid/ -->
+        <h2 class="display-4">Responsive Grid</h2>
+        <div class="row">
+            <div class="col-md-6 col-xl-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ratione nihil labore quos necessitatibus
+                repudiandae aut dolor aspernatur, rerum ab quisquam cumque corporis deleniti a magnam. Quae corporis
+                error ipsam?
+            </div>
+            <div class="col-md-6 col-xl-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ratione nihil labore quos necessitatibus
+                repudiandae aut dolor aspernatur, rerum ab quisquam cumque corporis deleniti a magnam. Quae corporis
+                error ipsam?
+            </div>
+            <div class="col-md-6 col-xl-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ratione nihil labore quos necessitatibus
+                repudiandae aut dolor aspernatur, rerum ab quisquam cumque corporis deleniti a magnam. Quae corporis
+                error ipsam?
+            </div>
+            <div class="col-md-6 col-xl-3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ratione nihil labore quos necessitatibus
+                repudiandae aut dolor aspernatur, rerum ab quisquam cumque corporis deleniti a magnam. Quae corporis
+                error ipsam?
+            </div>
+            <!-- using photos in grid system -->
+            <div class="row no-gutters">
+                <div class="col-md-6 col-xl-4">
+                    <img class="img-fluid" src="media/woodpecker_alfred_kenneally.jpg" alt="woodpecker">
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <img class="img-fluid" src="media/woodpecker_hans_veth.jpg" alt="woodpecker2">
+                </div>
+
+                <div class="col-md-6 col-xl-4">
+                    <img class="img-fluid" src="media/woodpecker_alfred_kenneally.jpg" alt="woodpecker3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
